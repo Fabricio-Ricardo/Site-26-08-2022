@@ -52,7 +52,7 @@ main{
     width:100%;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.74); 
-    background-image: url(icones-fotos/foto1.jpg); 
+    background-image: url(../icones-fotos/foto1.jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -82,7 +82,7 @@ p{
     height: 200px;
     background-color: rgba(0, 0, 0, 0.74);
     margin: 8% 0 0 0; 
-    background-image: url(icones-fotos/foto2.jpg); 
+    background-image: url(../icones-fotos/foto2.jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
