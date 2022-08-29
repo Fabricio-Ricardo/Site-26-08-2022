@@ -43,15 +43,15 @@ header >div >ul >li >a:after{
 }
 main{
     width:100%;
-    height: 280vh;
+    height: 465vh;
     background-color:white;
    
   
 }
-.contFoto1{
+#contFoto1{
     width:100%;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.74); 
+    background-color: #d36800; 
     background-image: url(../icones-fotos/foto1.jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -59,30 +59,30 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
     
 }
-.contFoto1 > h1{
+#contFoto1 > h1{
     color:white;
-    font-size: 5vw;
+    font-size:max(45px, 5vw);
     visibility: hidden;
 
 }
 
 p{
     color:rgb(80, 78, 78);
-    font-size: 1.5vw; 
+    font-size:max(13px, 1.5vw); 
     margin: 50px 20% 0 20%;
     text-align: justify; 
     padding: 20px 0 20px 0;
     text-indent: 25px;
 }
-.contFoto2{
+#contFoto2{
     width:100%;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.74);
-    margin: 8% 0 0 0; 
-    background-image: url(../icones-fotos/foto2.jpg); 
+    background-color: #d36800;
+    margin: 80px 0 0 0; 
+    background-image: url(../icones-fotos/foto3.jpg); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -90,12 +90,74 @@ p{
     justify-content: center;
     align-items: center;
 }
-.contFoto2 > h1{
+#contFoto2 > h1, #contFoto3 > h1{
     color:white;
-    font-size: 4vw;
+    font-size:max(35px, 4vw);
     visibility: hidden;
 
 }
+#contFoto3{
+    width:100%;
+    height: 200px;
+    background-color: #d36800; 
+    background-image: url(../icones-fotos/foto3.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+.caixaServices{
+    width: 25%;
+    height: 350px;
+    /*background-color: green;*/
+    float: left;
+    margin: 50px 0 0 10%;
+    border:  1px solid #d36800;
+    box-shadow: 1px 2px  3px black;
+}
+.caixaServices >h2,  .caixaServices2 >h2, .caixaServices3  >h2{
+    color: black;
+    font-size:max(20px, 2.5vw);  
+    margin: 5px 0 0 5%;
+
+}
+.caixaServices >p,  .caixaServices2 >p, .caixaServices3  >p{
+    color: black;
+    font-size:max(13px, 1.5vw);  
+    margin: 5px 5% 0 5%;
+    text-align: left; 
+    /*padding: 20px 0 20px 0;*/
+    text-indent: 0;
+
+
+}
+.caixaServices2{
+    width: 25%;
+    height: 350px;
+    /*background-color: green;*/
+    float: left;
+    margin: 50px 0 0 2%;
+    border:  1px solid #d36800;
+    box-shadow: 1px 2px  3px black;
+    
+}
+.caixaServices3{
+    width: 25%;
+    height: 350px;
+    /*background-color: green;*/
+    float: left;
+    margin: 50px 0 0 2%;
+    border:  1px solid #d36800;
+    box-shadow: 1px 2px  3px black;
+}
+
+
+
+
 footer{
     width:100%;
     height: 40vh;
