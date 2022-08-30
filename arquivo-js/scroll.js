@@ -34,28 +34,3 @@ ScrollReveal().reveal('.caixaServices3', {
         
 
 })
- var x=0;
- var y=0;
-
-function mobileMenuJs(){
-if (x == 0){
-    
-    var t = document.getElementsByClassName("mobile-menu");
-    var u = document.getElementsByClassName("mobile-menuHub");
-
-    
-    t[0].style.display="block";
-    u[0].style.backgroundColor="red";
-
-    x =1;
-}
-else{
-    
-    var f = document.getElementsByClassName("mobile-menu");
-
-    f[0].style.display="none";
-
-    x = 0;
-
-}
-}
