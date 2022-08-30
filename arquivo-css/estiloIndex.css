@@ -1,3 +1,4 @@
+@import url ('https://fonts.googleapis.com/css2? família=Yantramanav:wght@100&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -7,16 +8,26 @@
 
 body{
     background-color: white;
-    font-family:  helvetica;
+    font-family:  fonte-família: 'Yantramanav', sans-serif;;
 }
 
 header{
     width:100%;
-    height: 100px;
-    background-color: white;
+    height: 45px;
+    background-color: black;
     
   
 }
+header >.mobile-menu{
+   display: none;
+    
+}
+header >#mobile-menuHub{
+    display: none; 
+}
+
+
+
 header >div{
 /* background-color: blueviolet; */
 width: 100%;
@@ -26,24 +37,24 @@ height:100px;
 
 header >div >ul >li{
 font-size:21px;
-color:black;
+color:white;
 list-style:none;
 float:right;
 position: relative;
 margin-right:2%;
-margin-top: 55px;
+margin-top: 10px;
 }
 header >div >ul >li >a{
-    color:black;
+    color:white;
     text-decoration: none;  
 }
 header >div >ul >li >a:after{
-    background-color:black;
+    background-color:white;
        
 }
 main{
     width:100%;
-    height: 465vh;
+    height: 545vh;
     background-color:white;
    
   
@@ -63,7 +74,8 @@ main{
     
 }
 #contFoto1 > h1{
-    color:white;
+    color:white; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
     font-size:max(45px, 5vw);
     visibility: hidden;
 
@@ -72,7 +84,7 @@ main{
 p{
     color:rgb(80, 78, 78);
     font-size:max(13px, 1.5vw); 
-    margin: 50px 20% 0 20%;
+    margin: 50px 15% 0 15%;
     text-align: justify; 
     padding: 20px 0 20px 0;
     text-indent: 25px;
@@ -93,6 +105,7 @@ p{
 #contFoto2 > h1, #contFoto3 > h1{
     color:white;
     font-size:max(35px, 4vw);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
     visibility: hidden;
 
 }
@@ -111,48 +124,65 @@ p{
     
 }
 .caixaServices{
-    width: 25%;
+    width: 75%;
     height: 350px;
     /*background-color: green;*/
     float: left;
-    margin: 50px 0 0 10%;
-    border:  1px solid #d36800;
-    box-shadow: 1px 2px  3px black;
+    margin: 50px 0 0 15%;
+    /*border:  1px solid #d36800;*/
+    /*box-shadow: 1px 2px  3px black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
+
+
 .caixaServices >h2,  .caixaServices2 >h2, .caixaServices3  >h2{
     color: black;
     font-size:max(20px, 2.5vw);  
-    margin: 5px 0 0 5%;
+    /*margin: 5px 0 0 5%;*/
+    text-align: center;
+
 
 }
 .caixaServices >p,  .caixaServices2 >p, .caixaServices3  >p{
     color: black;
     font-size:max(13px, 1.5vw);  
     margin: 5px 5% 0 5%;
-    text-align: left; 
+    text-align:justify; 
     /*padding: 20px 0 20px 0;*/
-    text-indent: 0;
+    text-indent: 15px;
 
 
 }
 .caixaServices2{
-    width: 25%;
+    width: 75%;
     height: 350px;
     /*background-color: green;*/
     float: left;
-    margin: 50px 0 0 2%;
-    border:  1px solid #d36800;
-    box-shadow: 1px 2px  3px black;
+    margin: 50px 0 0 15%;
+    /*border:  1px solid #d36800;*/
+    /*box-shadow: 1px 2px  3px black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .caixaServices3{
-    width: 25%;
+   width: 75%;
     height: 350px;
     /*background-color: green;*/
     float: left;
-    margin: 50px 0 0 2%;
-    border:  1px solid #d36800;
-    box-shadow: 1px 2px  3px black;
+    margin: 50px 0 0 15%;
+    /*border:  1px solid #d36800;*/
+    /*box-shadow: 1px 2px  3px black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -171,12 +201,12 @@ footer{
 }
 footer > .divMenuFooter{
     width: 100%;
-    height: 25%;
-    /* background-color: red; */
+    height: 55px;
+     /*background-color: red; */
     display: flex;
     justify-content: center;
     float: left;
-    margin-top: 2%; 
+    margin-top: 20px; 
     
     
     
@@ -214,9 +244,9 @@ footer > .divMenuFooter >ul >li{
     .caixaRedes{
      width: 120px;
     height: 35px;
-    /* background-color:green; */
+     /*background-color:green; */
     float: left;
-    margin:2% 0 5% 0;
+    margin:20px 0 25px 0;
     
     }
     span{
@@ -230,8 +260,8 @@ footer > .divMenuFooter >ul >li{
 
     footer > .divCopy{
         width: 100%;
-        height: 20%;
-        /* background-color: rgb(48, 231, 192); */
+        height: 50px;
+         /*background-color: rgb(48, 231, 192); */
         float: left; 
         display: flex;
     flex-direction: column;
@@ -241,7 +271,7 @@ footer > .divMenuFooter >ul >li{
     }
     footer > .divCopy >p{
         color:white;
-        font-size: 1.2vw; 
+        font-size:max(11px, 1.5vw); 
         margin:10px 0 0 0 ;
         padding: 0;
         text-indent:0;
@@ -251,7 +281,7 @@ footer > .divMenuFooter >ul >li{
    
     footer > .divCopy >a{
         color:white;
-        font-size: 1.2vw;
+        font-size:max(11px, 1.5vw); 
         text-decoration: none;
        
     }
