@@ -7,10 +7,6 @@ height:100px;
 display: none;
 
 }
-
-
-
-
 header >.mobile-menu{
     position: absolute;
     width: 50%;
@@ -51,5 +47,100 @@ p{
 
     margin: 50px 0 0 12.5%;
 }
+
+}
+
+/*xxxxxxxxxxx--Mobile---xxxxxxxxx*/
+@media(max-width:480px){
+
+	#contFoto1{
+    height: 350px;
+    background-size:700px;  
+}
+#contFoto2{
+    height: 150px;
+    background-size: 150% 100%;
+}
+#contFoto3{
+    height: 150px;
+    background-size: 150% 100%;
+}
+
+
+#contFoto1 > h1{
+    font-size:max(30px, 4.5vw);
+    
+
+}
+p{
+    font-size:max(13px, 1.5vw); 
+    margin: 50px 5% 0 5%;
+}
+#contFoto2 > h1, #contFoto3 > h1{
+ 
+    font-size:max(25px, 4vw);
+    
+
+}
+.caixaServices >h2,  .caixaServices2 >h2, .caixaServices3  >h2{
+    
+    font-size:max(19px, 2.5vw);  
+    
+
+}
+.caixaServices >p,  .caixaServices2 >p, .caixaServices3  >p{
+   
+    font-size:max(13px, 1.5vw);  
+    margin: 5px 5% 0 5%;
+  
+
+
+}
+.caixaServices{
+    width: 100%;
+    margin: 50px 0 0 0;
+  
+
+}
+.caixaServices2{
+    width: 100%;
+    margin: 50px 0 0 0;
+  
+
+}
+.caixaServices3{
+    width: 100%;
+    margin: 50px 0 0 0;
+  
+
+}
+
+
+footer > .divMenuFooter >ul >li{
+    font-size:max(18px, 2.5vw);
+    color:white;
+    list-style:none;
+    text-align: center;
+    float: left;
+    margin: 20px 9px 0 0;
+    position: relative;
+   
+    }
+footer > .divCopy >p{
+        color:white;
+        font-size:max(9px, 1.5vw); 
+        margin:10px 0 0 0 ;
+        padding: 0;
+        text-indent:0;
+        
+
+    }
+   
+    footer > .divCopy >a{
+        color:white;
+        font-size:max(11px, 1.5vw); 
+        text-decoration: none;
+       
+    }
 
 }
