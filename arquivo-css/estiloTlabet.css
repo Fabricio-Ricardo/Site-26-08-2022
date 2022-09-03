@@ -53,6 +53,19 @@ p{
 /*xxxxxxxxxxx--Mobile---xxxxxxxxx*/
 @media(max-width:480px){
 
+	
+main{
+
+
+    max-height: 600vw;
+   
+  
+   
+  
+}
+
+
+
 	#contFoto1{
     height: 350px;
     background-size:700px;  
@@ -114,16 +127,19 @@ p{
   
 
 }
+footer{
+ 
+    height: 35vh;
+   
+    
+    
+}
 
 
 footer > .divMenuFooter >ul >li{
     font-size:max(18px, 2.5vw);
-    color:white;
-    list-style:none;
-    text-align: center;
-    float: left;
     margin: 20px 9px 0 0;
-    position: relative;
+    
    
     }
 footer > .divCopy >p{
