@@ -54,8 +54,8 @@ header >div >ul >li >a:after{
 }
 main{
     width:100%;
-    height: 545vh;
-    background-color:white;
+    height: 450vh;
+    background-color:rgb(255, 255, 255);
    
   
 }
